@@ -1,0 +1,22 @@
+{
+  "name": "react_fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava 'app/'**/*.test.js' --verbose --require .other/setup-ava-tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.12.0",
+    "jquery": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "webpack": "^1.12.14"
+  }
+}
